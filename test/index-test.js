@@ -60,3 +60,12 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
+function sayHiToGrandma(string) {
+  if (string.toLowerCase() === string) {
+    return string.toLowerCase()
+  } else if (string.toUpperCase() === string) {
+    return string.toUpperCase()
+  } else if (string === "I love you, Grandma") {
+    return "I love you, too."
+  }
+  }
