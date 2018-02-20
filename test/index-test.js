@@ -54,8 +54,7 @@ describe('sayHiToGrandma(string)', function() {
 function sayHiToGrandma(string) {
   if (sayHiToGrandma.toLowerCase() === lowercase) {
     return "I can't hear you!"
-  } else {
-    return
+  }
   }
 }
   it('returns "YES INDEED!" if `string` is uppercase', function() {
